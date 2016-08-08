@@ -1,16 +1,14 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'clark_events/version'
+require 'clark/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "clark_events"
-  spec.version       = ClarkEvents::VERSION
+  spec.version       = Clark::Event::VERSION
   spec.authors       = ["Rafael Jesus"]
   spec.email         = ["rafaelljesus86@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 

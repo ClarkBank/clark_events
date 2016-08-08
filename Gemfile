@@ -1,4 +1,10 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in clark_events.gemspec
-gemspec
+gem 'clark_event_bus',
+  git: 'https://github.com/ClarkBank/clark_event_bus.git',
+  branch: 'master',
+  path: '../clark_event_bus'
+
+group :test do
+  gem 'rspec'
+end
