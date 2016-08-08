@@ -1,5 +1,7 @@
 # ClarkEvents
 
+* Receives and stores any events from Clark Bank systems such as (user.registered, bank.account.opened and etc..)
+
 <p align='center'>
   <img src='https://github.com/ClarkBank/clark_events/blob/master/events.jpg' alt='EventBus diagram'>
 </p>
