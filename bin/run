@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/setup'
+require 'clark_event'
+
+worker = Clark::Event::Worker.new(durable: true, vhost: ENV['RABBIT_VHOST'])
+worker.run

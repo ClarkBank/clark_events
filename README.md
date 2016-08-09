@@ -6,10 +6,10 @@
   <img src='https://github.com/ClarkBank/clark_events/blob/master/events.jpg' alt='EventBus diagram'>
 </p>
 
-
 ## Usage
-
-TODO: Write usage instructions here
+```ruby
+ruby bin/run
+```
 
 ## Contributing
 - Fork it
