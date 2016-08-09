@@ -9,7 +9,7 @@
 </p>
 
 ## Installation
-``bash
+```bash
 git clone https://github.com/ClarkBank/clark_events.git
 cd clark_events
 bundle
