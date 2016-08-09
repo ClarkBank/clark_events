@@ -1,0 +1,14 @@
+machine:
+  ruby:
+    version: 2.3.1
+    services:
+      - docker
+deployment:
+  master:
+    branch: master
+    commands:
+      - docker build -t ClarkBank/clark_events .
+      - docker login -e $DOCKERHUB_EMAIL -u $DOCKERHUB_USER -p $DOCKERHUB_PASS
+      - docker tag ClarkBank/clark_events ClarkBank/clark_events:master
+      - docker push ClarkBank/clark_events:master
+

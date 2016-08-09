@@ -1,12 +1,23 @@
 # ClarkEvents
 
 * Receives and stores any events from Clark Bank systems such as (user.registered, bank.account.opened and etc..)
+* A minimal docker alpine container
+* Automatically pushes it to dockerhub if tests pass
 
 <p align='center'>
   <img src='https://github.com/ClarkBank/clark_events/blob/master/events.jpg' alt='EventBus diagram'>
 </p>
 
-## Usage
+## Installation
+``bash
+git clone https://github.com/ClarkBank/clark_events.git
+cd clark_events
+bundle
+```
+
+## Running Server
+
+To start the serve execute:
 ```ruby
 ruby bin/run
 ```
